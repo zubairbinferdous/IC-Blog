@@ -194,7 +194,7 @@ article{
     padding-left: 10px;
     font-size: 15px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding-top: 10px;
     text-transform: uppercase;
     padding-bottom: 10px;
@@ -203,9 +203,9 @@ article{
 
 .post-data p{
     padding-left: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
 
 }
 
@@ -298,12 +298,123 @@ article{
     
 }
 
-/* recent-post */
 
-.recent-post{
+
+/* form-area */
+
+.form-area{
+    margin-left: 20px;
+    box-shadow: -1px -1px 11px #25252556;
+    width: 80%;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+input[type ='text']{
+    width: 80%;
+    height: 20px;
+    border-radius:5px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+textarea{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
     width: 80%;
 }
 
-.recent-data p{
-    display:inline;
+form button{
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+}
+/* footer-area */
+footer{
+    margin-top: 20px;
+    height: 300px;
+    background-color: rgb(35, 35, 36);
+}
+
+.personal-info{
+    display: block;
+    float: left;
+    width: 30%;
+    color: cornsilk;
+    margin-left: 40px;
+    padding: 50px;
+}
+
+.personal-info h1 {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+
+
+.personal-info h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.personal-info p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.personal-info span{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+}
+
+
+.personal-post{
+    display: block;
+    float: left;
+    width: 30%;
+    color: cornsilk;
+    margin-left: 40px;
+    padding: 50px;
+
+}
+
+.personal-post ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.personal-post ul li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+.personal-post h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* copy write  */
+
+.copy{
+    height: 50px;
+    background: rgb(249, 253, 5);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
 }
